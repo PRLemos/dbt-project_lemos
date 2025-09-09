@@ -1,0 +1,1 @@
+SELECT * FROM `skilful-rain-385400.Schema.funcionarios`
