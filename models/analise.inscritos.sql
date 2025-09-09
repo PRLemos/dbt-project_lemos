@@ -1,9 +1,8 @@
-with inscritos as (
-    select * from {{ ref("inscritos") }}
+WITH funcionarios AS (
+  SELECT * FROM `skilful-rain-385400.Schema.funcionarios`
 )
-select
-    *,
-    age > 22 as maiority
-from inscritos
-
+SELECT
+  *,
+  age > 22 AS maioridade
+FROM funcionarios
 
